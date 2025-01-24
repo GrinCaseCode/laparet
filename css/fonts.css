@@ -1,0 +1,42 @@
+@font-face {
+	font-family: "Suisse Intl";
+	src:
+		url("../fonts/SuisseIntl-Bold.woff2") format("woff2"),
+		url("../fonts/SuisseIntl-Bold.woff") format("woff"),
+		url("../fonts/SuisseIntl-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse Intl";
+	src:
+		url("../fonts/SuisseIntl-Book.woff2") format("woff2"),
+		url("../fonts/SuisseIntl-Book.woff") format("woff"),
+		url("../fonts/SuisseIntl-Bold.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Suisse Intl";
+	src:
+		url("../fonts/SuisseIntl-Regular.woff2") format("woff2"),
+		url("../fonts/SuisseIntl-Regular.woff") format("woff"),
+		url("../fonts/SuisseIntl-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src:
+		url("../fonts/SFProText-Semibold.woff2") format("woff2"),
+		url("../fonts/SFProText-Semibold.woff") format("woff"),
+		url("../fonts/SFProText-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
