@@ -184,7 +184,8 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	});
 
 
-    $(".btn-catalog, .btn-catalog-mob").click(function() {
+    $(".btn-catalog, .btn-catalog-mob").click(function(e) {
+        e.preventDefault();
 		if ($(".catalog-dropdown").is(":hidden")) {
 			$(".catalog-dropdown").slideDown(200);
             $(".btn-catalog .sandwich").addClass("active");
