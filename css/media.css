@@ -452,6 +452,9 @@
         padding: 45px 40px;
         padding-bottom: 65px;
     }
+    .search-upload {
+        width: 40px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1290,6 +1293,9 @@
     .show-mob,
     .more-about {
         display: none !important;
+    }
+    .search-main {
+        display: block !important;
     }
 }
 

@@ -103,6 +103,7 @@ $(document).ready(function() {
 
               $(".search-overlay").click(function() {
                 $(".search-main").fadeOut(200);
+                $(".search-overlay").fadeOut(200);
             });
 		}
 	}
