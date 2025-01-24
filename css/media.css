@@ -624,6 +624,7 @@
     .about__content {
         display: -webkit-box;
         -webkit-line-clamp: 3;
+        line-clamp: 3;
         -webkit-box-orient: vertical;  
         overflow: hidden;
     }
@@ -661,6 +662,7 @@
     .about__content.active {
         display: block;
         -webkit-line-clamp: initial;
+        line-clamp: initial;
     }
     .slider-cards_photos .slick-slide {
         width: auto;
@@ -1284,7 +1286,7 @@
 @media only screen and (min-width : 768px) {
 
 }
-
+ 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .menu-mobile,

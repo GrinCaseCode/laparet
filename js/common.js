@@ -76,7 +76,7 @@ $(document).ready(function() {
             if ($(window).width() > 992) { 
                 $(".search-overlay").fadeOut(200);
             }
-        }
+        } 
        
         $(".popup-search").fadeOut(200);
         $(".search-main").removeClass("filled");
