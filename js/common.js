@@ -45,6 +45,11 @@ $(document).ready(function() {
         $(".popup-search").fadeOut(200);
         $(".search-main").removeClass("filled");
         $('.search-main form input').val("");
+        {
+            if ($(window).width() < 992) { 
+                $(".search-main").fadeOut(200);
+            }
+        }
 	});
 
     $(".btn-header_search").click(function(e) {
@@ -52,8 +57,10 @@ $(document).ready(function() {
 
         if ($(".search-main").is(":hidden")) {
             $(".search-main").fadeIn(200);
+            $(".search-overlay").fadeIn(200);
 		} else {
             $(".search-main").fadeOut(200);
+            $(".search-overlay").fadeOut(200);
 		}
 	});
 
