@@ -72,7 +72,12 @@ $(document).ready(function() {
 
         $(".search-main").removeClass("active");
         $("body").removeClass("body_search");
-        $(".search-overlay").fadeOut(200);
+        {
+            if ($(window).width() > 992) { 
+                $(".search-overlay").fadeOut(200);
+            }
+        }
+       
         $(".popup-search").fadeOut(200);
         $(".search-main").removeClass("filled");
         $('.search-main form input').val("");
@@ -83,6 +88,7 @@ $(document).ready(function() {
 		$(".popup-search-image").fadeOut(200);
         $(".search-overlay-image").fadeOut(200);
         $("body").removeClass("body_search");
+        
 	});
 
 
