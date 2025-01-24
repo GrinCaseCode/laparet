@@ -1165,6 +1165,7 @@
     }
     .catalog-dropdown__block {
         padding: 17px;
+        padding-bottom: 70px;
         max-height: initial;
         position: absolute;
         top: 0;
@@ -1176,6 +1177,7 @@
     }
     .location-popup__content {
         padding: 32px 20px;
+        padding-bottom: 70px;
     }
     .location-popup__close {
         width: 48px;
@@ -1183,6 +1185,7 @@
         background-color: transparent;
     }
     .location-popup {
+        max-width: 360px;
         top: 0;
     }
     .location-popup .container {
