@@ -448,6 +448,10 @@
     .locations-wrapper {
         max-height: calc(100vh - 274px);
     }
+    .popup-search-image {
+        padding: 45px 40px;
+        padding-bottom: 65px;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {

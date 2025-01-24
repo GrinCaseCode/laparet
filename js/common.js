@@ -316,7 +316,6 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	
 const slideCount =  $(".banner-slider .item").length;
 const indexCount = slideCount - 1;
-console.log(indexCount);
 for(let i = 0; i < slideCount; i++){
     $(".progressBarContainer").append(`
         <div class="item"><span data-slick-index="${i}" class="progressBar"></span></div>
