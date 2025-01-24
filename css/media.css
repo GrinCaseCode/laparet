@@ -1172,7 +1172,7 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        max-height: initial;
+        max-height: initial; 
         background: #fff;
     }
     .location-popup__content {
