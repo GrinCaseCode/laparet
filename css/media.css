@@ -1218,6 +1218,9 @@
         top: 3px;
         right: 7px;
     }
+    .popup-search__content {
+        max-height: calc(100vh - 230px);
+    }
 }
 
 
